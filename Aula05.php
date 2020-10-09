@@ -43,7 +43,7 @@
                 echo "<br/>A raiz de $v1 e".sqrt($v1);
                 echo "<br/>O arredondamento de $v2 e".round($v2); #usando ceil arredonda para cima e floor para baixo
                 echo "<br/>A parte inteira de $v2 e".intval($v2);
-                echo "<br/> O valor de $v1 em moeda é R$".sqrt($v1,2);
+                echo "<br/> O valor de $v1 em moeda é R$".sqrt($v1,2,",",".");
             ?>
        </div> 
     </body>
