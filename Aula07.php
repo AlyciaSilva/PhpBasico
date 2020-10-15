@@ -24,7 +24,7 @@
                 $media = ($nota1 + $nota2)/2;
                 echo "<br/>A média entre $nota1 e $nota2 é $media <br/>";
                 //$sit = ($media<6) ? "Reprovado":"Aprovado"; 
-                echo "A situação do aluno é ".($media < 6) ? "Aprovado":"Reprovado";
+                echo "A situação do aluno é ".(($media < 6) ? "Aprovado":"Reprovado");
                 //Exericio para eleição
                 $ano = $_GET['an'];
                 $idade = 2020 - $ano;
